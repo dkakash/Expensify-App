@@ -12,8 +12,8 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env Production",
     "dev-server": "webpack-dev-server",
-    "start":"node server/server.js",
-    "heroku-postbuild":"npm run build:prod"
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -23,12 +23,12 @@
     "babel-plugin-transform-object-rest-spread": "6.23.0",
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
-    "css-loader": "0.28.4",
+    "css-loader": "^3.4.2",
     "express": "^4.17.1",
     "extract-text-webpack-plugin": "^3.0.2",
     "live-server": "^1.2.0",
-    "moment": "^2.18.1",
-    "node-sass": "4.5.3",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.1",
     "normalize.css": "7.0.0",
     "react": "15.6.1",
     "react-addons-shallow-compare": "^15.6.2",
